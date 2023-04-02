@@ -1,0 +1,4 @@
+1. variable name can be start with "_".
+2. variable name can be start with letter.
+3. variable name can contain letter, number or underscore;
+4. no existing keyword can be the variable name
