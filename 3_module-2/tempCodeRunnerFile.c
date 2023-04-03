@@ -1,4 +1,2 @@
-else
-    // {
-    //     printf("Sorry I dont have money")
-    // }
+
+    printf("%d", division);

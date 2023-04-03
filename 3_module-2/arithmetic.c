@@ -8,8 +8,8 @@ int main()
     // printf("%d", minus);
     // int multiply = a * b;
     // printf("%d", multiply);
-    // int division = b / a;
-    // printf("%d", division);
+    int division = b / a;
+    printf("%d", division);
     // int module = b % a;
     // printf("%d", module);
     // float a = 10, b = 22;
