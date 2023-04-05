@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int i = 0;
-    int sum = 0;
-    for (i = 1; i <= 10; i = i + 1)
+    long long int sum = 0;
+    int i;
+    int n;
+    scanf("%d", &n);
+    for (i = 1; i <= n; i = i + 1)
     {
         sum += i;
     }
-    printf("%d\n", sum);
+    printf("%lld", sum);
     return 0;
 }
