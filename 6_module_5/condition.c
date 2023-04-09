@@ -1,5 +1,5 @@
-#include <stdio.h>
-int main()
+// #include <stdio.h>
+// int main()
 // {
 //     int A, B;
 //     scanf("%d %d", &A, &B);
@@ -32,16 +32,22 @@ int main()
 //     }
 //     return 0;
 // }
+// {
+//     int X;
+//     scanf("%d", &X);
+//     if (X % 2 == 0)
+//     {
+//         printf("Even");
+//     }
+//     else
+//     {
+//         printf("Odd");
+//     }
+//     return 0;
+// }
+#include <stdio.h>
+int main()
 {
-    int X;
-    scanf("%d", &X);
-    if (X % 2 == 0)
-    {
-        printf("Even");
-    }
-    else
-    {
-        printf("Odd");
-    }
-    return 0;
+  
+  return 0;
 }
