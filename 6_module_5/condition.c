@@ -92,15 +92,15 @@ int main()
 
     if (A >= B && A >= C)
     {
-        printf("%d ", A);
+        printf("%d", A);
     }
     else if (B >= A && B >= C)
     {
-        printf("%d ", B);
+        printf("%d", B);
     }
     else
     {
-        printf("%d ", C);
+        printf("%d", C);
     }
     return 0;
 }
