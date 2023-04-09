@@ -10,6 +10,8 @@
 //     }
 //     return 0;
 // }
+// #include <stdio.h>
+// int main()
 // {
 //     int A, B;
 //     scanf("%d %d", &A, &B);
@@ -20,6 +22,8 @@
 //     }
 //     return 0;
 // }
+// #include <stdio.h>
+// int main()
 // {
 //     char X;
 //     scanf("%c", &X);
@@ -32,22 +36,71 @@
 //     }
 //     return 0;
 // }
+// #include <stdio.h>
+// int main()
 // {
 //     int X;
 //     scanf("%d", &X);
-//     if (X % 2 == 0)
+//     int res = X / 1000;
+//     if (res % 2 == 0)
 //     {
-//         printf("Even");
+//         printf("EVEN");
 //     }
 //     else
 //     {
-//         printf("Odd");
+//         printf("ODD");
 //     }
 //     return 0;
 // }
+// #include <stdio.h>
+// int main()
+// {
+//   char X;
+//   scanf("%c", &X);
+//   if(X >= '0' && X <= '9')
+//   {
+//     printf("IS DIGIT");
+//   }else{
+//     printf("ALPHA\n");
+//     if(X >= 'a' && X <= 'z'){
+//         printf("IS SMALL");
+//     }else{
+//         printf("IS CAPITAL");
+//     }
+//   }
+//   return 0;
+// }
+
 #include <stdio.h>
 int main()
 {
-  
-  return 0;
+    int A, B, C;
+    scanf("%d %d %d", &A, &B, &C);
+    if (A <= B && A <= C)
+    {
+        printf("%d ", A);
+    }
+    else if (B <= A && B <= C)
+    {
+        printf("%d ", B);
+    }
+    else
+    {
+        printf("%d ", C);
+    }
+
+
+    if (A >= B && A >= C)
+    {
+        printf("%d ", A);
+    }
+    else if (B >= A && B >= C)
+    {
+        printf("%d ", B);
+    }
+    else
+    {
+        printf("%d ", C);
+    }
+    return 0;
 }
