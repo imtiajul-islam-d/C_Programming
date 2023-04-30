@@ -1,5 +1,5 @@
-d
-dd
-ddd
-dddd
 ddddd
+dddd
+ddd
+dd
+d
