@@ -1,5 +1,2 @@
-0061FF1C
-0061FF1C
-0061FF18
-3
-500
+string
+string
